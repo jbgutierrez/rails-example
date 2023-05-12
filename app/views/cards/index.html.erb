@@ -2,6 +2,8 @@
 
 <h1>Cards</h1>
 
+<%= paginate @cards %>
+
 <div id="cards">
   <% @cards.each do |card| %>
     <%= render card %>
